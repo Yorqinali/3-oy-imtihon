@@ -1,0 +1,230 @@
+.section__forms {
+  display: flex;
+  width: 1360px;
+  height: 873px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #999999;
+  backdrop-filter: blur(1px);
+  border-radius: 20px;
+  margin: 120px auto;
+  .section__forms__services {
+    width: 50%;
+    height: 100%;
+    padding-top: 60px;
+    padding-left: 80px;
+    b {
+      font-family: "Proxima Nova";
+      font-style: italic;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 39px;
+      color: #000000;
+      margin-bottom: 40px;
+    }
+    .inputs {
+      border: 0;
+      border-bottom: 1px solid #272727;
+      margin-top: 25px;
+      width: 499px;
+      padding-bottom: 8px;
+    }
+    h4 {
+      font-family: "Proxima Nova";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 29px;
+      color: #000000;
+    }
+    .box {
+      display: flex;
+      justify-content: space-around;
+      .left-box {
+        p {
+          font-family: "Proxima Nova";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 22px;
+          color: #000000;
+          .checkbox {
+            margin-top: 10px;
+          }
+        }
+      }
+      .right-box {
+        p {
+          font-family: "Proxima Nova";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 22px;
+          color: #000000;
+          .checkbox1 {
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+  .section__forms__drinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+    .container {
+      // display: flex;
+      text-align: center;
+      width: 487px;
+      height: 602px;
+      background: rgba(83, 83, 83, 0.1);
+      box-shadow: 20px 20px 40px rgba(241, 216, 253, 0.08);
+      backdrop-filter: blur(2px);
+      border-radius: 10px;
+      .box {
+        display: flex;
+        .box1 {
+          padding-top: 40px;
+          padding-left: 61px;
+          p {
+            margin-bottom: 20px;
+            // margin-left: 61px;
+            // margin-top: 40px;
+          }
+        }
+        .box2 {
+          padding-top: 40px;
+          padding-left: 61px;
+        }
+      }
+    }
+    button {
+      width: 70px;
+      height: 70px;
+      background: #6911ad;
+      border-radius: 141px;
+      border: 0;
+      font-family: "Proxima Nova";
+      font-style: normal;
+      font-weight: 700;
+      margin-top: 25px;
+      font-size: 18px;
+      line-height: 22px;
+      padding-left: 40px;
+      padding-top: 10px;
+      color: #929292;
+      transition: width 1s;
+    }
+    button:hover {
+      width: 196px;
+      height: 70px;
+      display: flex;
+      // align-items: center;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      // padding-left: 30px;
+    }
+  }
+}
+@media only screen and (max-width: 401px) {
+  .section__forms {
+    width: 360px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    .section__forms__services {
+      width: 100%;
+      height: auto;
+      padding: 0;
+      text-align: center;
+      padding: 19px 20px 65px;
+      b {
+        font-family: "Proxima Nova";
+        font-style: italic;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #000000;
+        // margin: 19px auto 25;
+      }
+      .inputs {
+        width: 320px;
+      }
+      h4 {
+        font-family: "Proxima Nova";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        color: #000000;
+        text-align: start;
+        margin-right: 103px;
+      }
+      .box {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        text-align: start;
+      }
+    }
+    .section__forms__drinks {
+      width: 100%;
+      height: auto;
+      margin: 0;
+      .container {
+        width: 320px;
+        height: 362px;
+        margin: 0;
+        h4 {
+          font-family: "Proxima Nova";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 19px;
+          color: #000000;
+          margin-top: 30px;
+          margin-bottom: 20px;
+        }
+        .box {
+          .box1,
+          .box2 {
+            padding: 0;
+            padding-left: 35px;
+            img {
+              width: 80px;
+              height: 80px;
+            }
+            p {
+              font-family: "Proxima Nova";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 16px;
+              line-height: 19px;
+              color: #000000;
+            }
+          }
+          .box2 {
+            margin-left: 55px;
+          }
+        }
+      }
+      button {
+        margin-top: 28px;
+        color: #ffffff;
+        width: 179px;
+        height: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin-bottom: 65px;
+      }
+      button:hover {
+        background: #5454d4;
+      }
+    }
+  }
+}

@@ -1,0 +1,292 @@
+.header {
+  max-width: 100%;
+  height: 904px;
+  margin: auto;
+
+  &_nav {
+    max-width: 1600px;
+    height: 80px;
+    
+    display: flex;
+  }
+  &_sun {
+    display: none;
+  }
+  &_menu {
+    display: none;
+  }
+  &_link {
+    text-decoration: none;
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+  }
+  &_left {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  &_right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  &_list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+  }
+  &_contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  &_tel {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #000000;
+  }
+  &_mail {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    color: #000000;
+  }
+  &_ordercall {
+    width: 168px;
+    height: 45px;
+    left: 1312px;
+    top: 17px;
+    color: aliceblue;
+    background-color: #6911ad;
+    border-radius: 7px;
+    border: none;
+  }
+  &_calllink {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  &_hero {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 824px;
+  }
+  &_hleft {
+   
+    width: 50%;
+    height: 824px;
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+  }
+  &_head {
+    font-family: "Proxima Nova";
+
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: #000000;
+  }
+  &_hright {
+    position: relative;
+    
+    width: 50%;
+    height: 824px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &_earth {
+   
+    border-radius: 50%;
+  }
+  &_text {
+    text-align: start;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 308px;
+  }
+
+  &_herobtn {
+    position: absolute;
+    border: none;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    color: #ffffff;
+    top: 730px;
+    left: 90px;
+    background-color: #6911ad;
+    border-radius: 141px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+  }
+
+  &_herobtn:hover {
+    width: 196px;
+    height: 70px;
+  }
+  &_portfolio {
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 141px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  &_mode {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 93px;
+    height: 40px;
+
+    border-radius: 40px;
+  }
+  &_darkl {
+    width: 93px;
+    height: 40px;
+
+    border-radius: 40px;
+    border-radius: 40px;
+    border: none;
+    background-color: rgb(150, 99, 33);
+  }
+}
+@media only screen and (max-width: 400px) {
+  .header {
+    height: 870px;
+    &_nav {
+      width: 100%;
+    }
+    &_logo {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    &_earthres{
+      position: absolute;
+      margin-bottom: 50px;
+    }
+    &_right {
+      display: none;
+    }
+    &_herobtn {
+      width: 196px;
+      height: 70px;
+    }
+    &_lists {
+      display: none;
+    }
+    &_hero {
+      height: 790px;
+      flex-direction: column-reverse;
+    }
+    &_hleft {
+      display: flex;
+      align-items: cennpmter;
+      justify-content: space-around;
+      width: 100%;
+      height: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &_sunbtn {
+      border-radius: 15px;
+      border-right: none;
+    }
+    &_moonbtn {
+      border-radius: 15px;
+      border-left: none;
+    }
+    &_text {
+      align-items: center;
+    }
+    &_head {
+      font-family: "Proxima Nova";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 35px;
+      /* or 109% */
+
+      text-align: center;
+
+      color: #000000;
+    }
+    &_textinfo {
+      font-family: "Proxima Nova";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      line-break: normal;
+      color: #000000;
+      margin: 15px;
+    }
+    &_text {
+      top: 500px;
+      width: 100%;
+    }
+    &_hright {
+      position: relative;
+      height: 50%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      top: auto;
+    }
+    &_earth {
+      position: relative;
+      right: 30%;
+      top: -30%;
+    margin-bottom: 50px;
+      width: 238px;
+      height: 238px;
+
+    }
+    &_sun {
+      display: block;
+    }
+
+    &_menu {
+      display: block;
+    }
+    &_logo {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+  }
+}

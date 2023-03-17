@@ -1,0 +1,500 @@
+.header {
+  position: relative;
+  max-width: 100%;
+  height: 800px;
+
+  margin: auto;
+  display: flex;
+
+  flex-direction: column;
+}
+
+.header__nav {
+  position: absolute;
+  width: 1500px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+
+  background: rgba(23, 25, 29, 0.1);
+  backdrop-filter: blur(1px);
+}
+.header__chap {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 30px;
+}
+.header__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: #050505;
+}
+
+.header_ong {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header_lightnight {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+}
+.header_umi {
+  position: absolute;
+  width: 93px;
+  height: 40px;
+  left: 978px;
+  top: 20px;
+}
+
+.header_contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.header_telifon {
+  position: absolute;
+  width: 170px;
+  height: 24px;
+  left: 1111px;
+  top: 17px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+.header_mail {
+  position: absolute;
+  width: 136px;
+  height: 17px;
+  left: 1111px;
+  top: 44px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.header_ordercall {
+  position: absolute;
+  width: 168px;
+  height: 45px;
+  left: 1312px;
+  top: 17px;
+
+  background: #6911ad;
+  border-radius: 7px;
+}
+.header_calllink {
+  font-weight: 700px;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.main {
+  max-width: 100%;
+  height: 800px;
+}
+.main__img {
+  position: absolute;
+  width: 1009.4px;
+  height: 757.39px;
+  left: 122.3px;
+  top: 121.3px;
+
+  background: url(image.png);
+  border-radius: 20px;
+}
+
+.main__item {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 317px;
+  height: 283px;
+  left: 150px;
+  top: 121.1px;
+  box-sizing: border-box;
+
+  left: 1163px;
+  top: 120px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #999999;
+  backdrop-filter: blur(1px);
+  border-radius: 20px;
+}
+.main__dizayn {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 317px;
+  height: 195px;
+}
+.main__head {
+  position: absolute;
+  width: 277px;
+  height: 48px;
+  left: 20px;
+  top: 170px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.main__list {
+  box-sizing: border-box;
+  position: absolute;
+  width: 317px;
+  height: 283px;
+  left: 1163px;
+  top: 433px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #999999;
+  backdrop-filter: blur(1px);
+  border-radius: 20px;
+}
+.main__imgg {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 317px;
+  height: 195px;
+
+  background: url(image.png);
+  border: 1px solid #999999;
+  backdrop-filter: blur(1px);
+  border-radius: 20px 20px 0px 1px;
+}
+
+.main__title {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 317px;
+  height: 283px;
+  left: 1163px;
+  top: 746px;
+
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #999999;
+  backdrop-filter: blur(1px);
+  border-radius: 20px;
+}
+.main__imgs {
+  box-sizing: border-box;
+  position: absolute;
+  width: 317px;
+  height: 195px;
+  background: url(image.png);
+  border: 1px solid #999999;
+  backdrop-filter: blur(1px);
+  border-radius: 20px 20px 0px 1px;
+}
+.main__intro {
+  box-sizing: border-box;
+  position: absolute;
+  width: 317px;
+  height: 283px;
+  left: 1163px;
+  top: 1059px;
+
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #999999;
+  backdrop-filter: blur(1px);
+  border-radius: 20px;
+}
+.main__imgss {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 317px;
+  height: 195px;
+  left: 1163px;
+  top: 1059px;
+
+  background: url(image.png);
+  border: 1px solid #999999;
+  backdrop-filter: blur(1px);
+  border-radius: 20px 20px 0px 1px;
+}
+.main__heads {
+  position: absolute;
+  width: 277px;
+  height: 48px;
+  left: 1183px;
+  top: 1269px;
+
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.section__container {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 1012px;
+  height: 1755px;
+  left: 121px;
+  top: 920px;
+
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #4e4e4e;
+  backdrop-filter: blur(1px);
+  border-radius: 20px;
+}
+.section__head {
+  position: absolute;
+  width: 932px;
+  height: 88px;
+  left: 40px;
+
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+
+  color: #000000;
+}
+.section__text {
+  position: absolute;
+  width: 932px;
+  height: 450px;
+  left: 40px;
+  top: 120px;
+
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.section__img {
+  position: absolute;
+  width: 932px;
+  height: 623px;
+  left: 40px;
+  top: 550px;
+
+  background: url(image.png);
+  border-radius: 20px;
+}
+.section__textt {
+  position: absolute;
+  width: 932px;
+  height: 390px;
+  left: 40px;
+  top: 1200px;
+
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+
+  color: #000000;
+}
+.section__chiziq {
+  position: absolute;
+  width: 932px;
+  height: 0px;
+  left: 40px;
+  top: 1600px;
+
+  border: 1px solid #989898;
+}
+.section__teg {
+  position: absolute;
+  width: 150px;
+  height: 19px;
+  left: 40px;
+  top: 1670px;
+  color: #989898;
+}
+
+.section__logo {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 400px;
+  top: 1670px;
+}
+.section__sana {
+  position: absolute;
+  width: 118px;
+  height: 19px;
+  left: 430px;
+  top: 1670px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #272727;
+}
+.section__frame {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 870px;
+  top: 1670px;
+}
+
+.section__ulashish {
+  position: absolute;
+  width: 118px;
+  height: 19px;
+  left: 900px;
+  top: 1670px;
+
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #272727;
+}
+
+.footer__container {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 1600px;
+  height: 228px;
+  top: 2790px;
+  border: 1px solid #000000;
+}
+.footer__img {
+  position: absolute;
+  width: 158px;
+  height: 66px;
+  left: 120px;
+  top: 100px;
+}
+.footer__imgs {
+  position: absolute;
+  left: 400px;
+  top: 110px;
+  bottom: 10.48%;
+  color: #000000;
+}
+.footer__location {
+  position: absolute;
+  width: 434px;
+  height: 50px;
+  left: 454px;
+  top: 100px;
+
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+
+  color: #000000;
+}
+.footer__tel {
+  position: absolute;
+
+  right: 300px;
+  top: 50px;
+  bottom: 40px;
+
+  color: #000000;
+}
+.footer__telifon {
+  position: absolute;
+
+  right: 300px;
+  top: 90px;
+  bottom: 40px;
+
+  color: #000000;
+}
+.footer__telifonn {
+  position: absolute;
+  width: 170px;
+  height: 24px;
+  right: 400px;
+  top: 95px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+.footer__telifonnn {
+  position: absolute;
+  width: 170px;
+  height: 24px;
+  right: 400px;
+  top: 135px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+.footer__teligiram {
+  position: absolute;
+
+  right: 280px;
+  top: 120px;
+  bottom: 16.67%;
+  color: #000000;
+}
+.footer__fecbook {
+  position: absolute;
+  right: 230px;
+  top: 120px;
+  bottom: 16.67%;
+  color: #000000;
+}
+.footer__insta {
+  position: absolute;
+
+  right: 170px;
+  top: 120px;
+  bottom: 16.67%;
+  color: #000000;
+}

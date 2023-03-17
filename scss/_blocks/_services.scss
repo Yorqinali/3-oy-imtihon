@@ -1,0 +1,142 @@
+.services {
+  max-width: 100%;
+  height: 1150px;
+  margin: auto;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1358px;
+    height: 788px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #999999;
+    backdrop-filter: blur(1px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 20px;
+  }
+  &_heading {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+  }
+  &_con {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: 624px;
+  
+  }
+  &_card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 220px;
+    width: 320px;
+    
+    text-align: center;
+  }
+  &_cardheading {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.750316px;
+
+    color: #000000;
+  }
+  &_text {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* or 140% */
+
+    text-align: center;
+    letter-spacing: -0.500211px;
+
+    color: rgba(39, 39, 39, 0.7);
+  }
+}
+@media only screen and (max-width: 400px) {
+  .services {
+    
+    
+    height: 1520px;
+    width: 100%;
+    &_wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 360px;
+      height: 1397px;
+      background: rgba(255, 255, 255, 0.9);
+      border: 1px solid #999999;
+      backdrop-filter: blur(1px);
+      /* Note: backdrop-filter has minimal browser support */
+
+      border-radius: 20px;
+    }
+    &_con {
+      width: 360px;
+      height: 1347px;
+
+      display: flex;
+      flex-direction: column;
+    }
+    &_heading {
+      font-family: "Proxima Nova";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+
+      color: #000000;
+    }
+    &_cardheading {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 33px;
+        /* identical to box height */
+        
+        text-align: center;
+        letter-spacing: -0.750316px;
+        
+        color: #000000;
+        
+      }
+      &_text {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 142.65%;
+        /* or 23px */
+        
+        text-align: center;
+        
+        color: rgba(0, 0, 0, 0.7);
+        
+      }
+  }
+}

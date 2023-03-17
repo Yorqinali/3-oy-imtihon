@@ -1,0 +1,107 @@
+.company {
+  height: 529px;
+  max-width: 100%;
+  margin: auto;
+ 
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &_wrapper {
+    width: 1270px;
+    height: 359px;
+    
+    display: flex;
+  }
+  &_left {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+   
+  }
+
+  &_heading {
+    margin-top: 20px;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 64px;
+    /* identical to box height */
+
+    color: #000000;
+  }
+  &_text {
+    margin-bottom: 20px;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+
+    color: rgba(0, 0, 0, 0.8);
+  }
+  &_right {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 50%;
+
+  }
+  &_years{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 270px;
+    height: 100%;
+    
+  }
+}
+@media only screen and (max-width: 400px) {
+  .company {
+   
+    border: 2px solid;
+    height: 657px;
+    &_wrapper {
+      flex-direction: column;
+      width: 360px;
+      height: 507px;
+    }
+    &_left {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 50%;
+      width: 100%;
+      
+    }
+    &_heading {
+      font-family: "Futura PT";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 31px;
+      line-break: normal;
+      /* identical to box height */
+
+      color: #000000;
+    }
+    &_text {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 110%;
+    }
+    &_right {
+      height: 50%;
+      width: 100%;
+   
+    }
+  }
+}

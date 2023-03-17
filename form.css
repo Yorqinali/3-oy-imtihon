@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@font-face {
+  font-family: "Proxima Nova";
+  src: url(../../fonts/proximanova_regular.ttf) format(truetype);
+}
+* {
+  box-sizing: border-box;
+}
+
+
+.section .section__forms {
+  display: flex;
+  width: 1360px;
+  height: 873px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #999999;
+  backdrop-filter: blur(1px);
+  border-radius: 20px;
+  margin: 120px auto;
+}
+.section .section__forms .section__forms__services {
+  width: 50%;
+  height: 100%;
+  padding-top: 60px;
+  padding-left: 80px;
+}
+.section .section__forms .section__forms__services b {
+  font-family: "Proxima Nova";
+  font-style: italic;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+.section .section__forms .section__forms__services .inputs {
+  border: 0;
+  border-bottom: 1px solid #272727;
+  margin-top: 25px;
+  width: 499px;
+  padding-bottom: 8px;
+}
+.section .section__forms .section__forms__services h4 {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+.section .section__forms .section__forms__services .box {
+  display: flex;
+  justify-content: space-around;
+}
+.section .section__forms .section__forms__services .box .left-box p {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.section .section__forms .section__forms__services .box .left-box p .checkbox {
+  margin-top: 10px;
+}
+.section .section__forms .section__forms__services .box .right-box p {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.section .section__forms .section__forms__services .box .right-box p .checkbox1 {
+  margin-top: 10px;
+}
+.section .section__forms .section__forms__drinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 70px;
+}
+.section .section__forms .section__forms__drinks .container {
+  text-align: center;
+  width: 487px;
+  height: 602px;
+  background: rgba(83, 83, 83, 0.1);
+  box-shadow: 20px 20px 40px rgba(241, 216, 253, 0.08);
+  backdrop-filter: blur(2px);
+  border-radius: 10px;
+}
+.section .section__forms .section__forms__drinks .container .box {
+  display: flex;
+}
+.section .section__forms .section__forms__drinks .container .box .box1 {
+  padding-top: 40px;
+  padding-left: 61px;
+}
+.section .section__forms .section__forms__drinks .container .box .box1 p {
+  margin-bottom: 20px;
+}
+.section .section__forms .section__forms__drinks .container .box .box2 {
+  padding-top: 40px;
+  padding-left: 61px;
+}
+.section .section__forms .section__forms__drinks button {
+  width: 70px;
+  height: 70px;
+  background: #6911ad;
+  border-radius: 141px;
+  border: 0;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 25px;
+  font-size: 18px;
+  line-height: 22px;
+  padding-left: 40px;
+  padding-top: 10px;
+  color: #929292;
+  transition: width 1s;
+}
+.section .section__forms .section__forms__drinks button:hover {
+  width: 196px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+@media only screen and (max-width: 401px) {
+  
+  .section .section__forms {
+    width: 360px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .section .section__forms .section__forms__services {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    text-align: center;
+    padding: 19px 20px 65px;
+  }
+  .section .section__forms .section__forms__services b {
+    font-family: "Proxima Nova";
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+  }
+  .section .section__forms .section__forms__services .inputs {
+    width: 320px;
+  }
+  .section .section__forms .section__forms__services h4 {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    text-align: start;
+    margin-right: 103px;
+  }
+  .section .section__forms .section__forms__services .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: start;
+  }
+  .section .section__forms .section__forms__drinks {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  .section .section__forms .section__forms__drinks .container {
+    width: 320px;
+    height: 362px;
+    margin: 0;
+  }
+  .section .section__forms .section__forms__drinks .container h4 {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .section .section__forms .section__forms__drinks .container .box .box1,
+  .section .section__forms .section__forms__drinks .container .box .box2 {
+    padding: 0;
+    padding-left: 35px;
+  }
+  .section .section__forms .section__forms__drinks .container .box .box1 img,
+  .section .section__forms .section__forms__drinks .container .box .box2 img {
+    width: 80px;
+    height: 80px;
+  }
+  .section .section__forms .section__forms__drinks .container .box .box1 p,
+  .section .section__forms .section__forms__drinks .container .box .box2 p {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+  }
+  .section .section__forms .section__forms__drinks .container .box .box2 {
+    margin-left: 55px;
+  }
+  .section .section__forms .section__forms__drinks button {
+    margin-top: 28px;
+    color: #ffffff;
+    width: 179px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 65px;
+  }
+  .section .section__forms .section__forms__drinks button:hover {
+    background: #5454d4;
+  }
+}
+.footer {
+  max-width: 1600px;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid;
+  height: 228px;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(1px);
+  border-radius: 20px 20px 0px 0px;
+}
+.footer .footer__logo {
+  margin: 81px 141px 81px 120px;
+}
+.footer .footer__adress {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 89px 139px 89px 0;
+}
+.footer .footer__adress .ri-map-pin-line {
+  font-size: 30px;
+  margin: 30px 15px;
+}
+.footer .footer__adress p {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+  color: #000000;
+}
+.footer .footer__call {
+  margin-top: 100px;
+  margin-right: 130px;
+}
+.footer .footer__call a {
+  text-decoration: none;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.06em;
+  color: #000000;
+}
+.footer .footer__social-media {
+  margin-top: 110px;
+  display: flex;
+  gap: 30px;
+}
+.footer .footer__social-media a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 401px) {
+  .footer {
+    width: 100%;
+    height: 379px;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer .footer__logo {
+    margin: 40px auto 20px;
+  }
+  .footer .footer__logo h1 {
+    font-family: "Banana Brick";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 57px;
+    letter-spacing: 0.06em;
+    color: #000000;
+    margin: 0;
+  }
+  .footer .footer__adress {
+    margin: 0 auto 23px;
+  }
+  .footer .footer__adress p {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+  }
+  .footer .footer__adress p .br {
+    display: none;
+  }
+  .footer .footer__call {
+    margin: 0 auto 30px;
+  }
+  .footer .footer__call a {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.06em;
+    color: #000000;
+  }
+  .footer .footer__social-media {
+    margin: 0 auto 43px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
